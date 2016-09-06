@@ -6,6 +6,7 @@ require_relative "lib/team_data"
 
 get "/" do
   "<h1>The LACKP Homepage<h1>"
+  # whatsup?
 end
 
 get "/teams" do
