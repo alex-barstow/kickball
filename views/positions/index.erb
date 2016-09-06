@@ -1,0 +1,4 @@
+<h1> POSITIONS </h1>
+<% @teams[@teams.keys[0]].each do |position, player| %>
+  <li><a href='positions/<%= position %>'><%= position %></a></li>
+<% end %>
